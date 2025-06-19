@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/aff89052-bb0a-4fdf-972a-efa579a614ea
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aff89052-bb0a-4fdf-972a-efa579a614ea) and start prompting.
+# 🌱 Eco-Metrics: Embodied Carbon Emissions Dashboard
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+Eco-Metrics is a clean, accessible, and data-rich dashboard for visualizing **Embodied Carbon Emissions** of building projects. It is designed to help teams track and compare carbon intensity across construction types, project phases, and timelines—supporting sustainability goals like **Net Zero 2030** and **Embodied Carbon Targets**.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Link: https://eco-metrics.lovable.app/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📊 Features
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Status toggle**: View Dark or Light Mode
+- **Graph visualization**: Beautiful bar chart with various filters.
+- **Legend and tooltips**: Clear legends and inline value annotations for easy comparison.
+- **Data export**: Click-to-download feature for CSV or raw data sets.
+- **Responsive & Accessible**: Works across devices and supports keyboard navigation.
+- **Brand kit switcher** (Work in Progress): Switch between multiple brand themes (e.g., ECorp, ICorp, The Agency).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠 Built With
+
+### Frontend
+
+| Technology        | Role                                      |
+|-------------------|-------------------------------------------|
+| **React.js**       | Main frontend framework                   |
+| **D3.js / Chart.js** | For rendering the carbon intensity charts |
+| **Tailwind CSS**   | Rapid, utility-first styling framework   |
+| **Framer Motion**  | Smooth transitions and animations        |
+| **TypeScript**     | Optional typing (if applied)             |
+
+Platform: **[Lovable.dev](https://www.lovable.dev)**
+
+Eco-Metrics is powered by **Lovable.dev**, a modern development environment that allows:
+
+- **Visual-first development**: Design components visually, then integrate with backend logic.
+- **Team collaboration**: Real-time editing, review, and deployment workflows.
+- **One-click publishing**: Instant live previews and deployment without CI/CD setup.
+- **Component library integration**: Supports shared components across teams.
+- **Dev+Design harmony**: Designers and developers work in one unified workspace.
+
+
+## 📁 Project Structure
+
+
+
+eco-metrics/
+├── public/                   # Static assets and favicon
+├── src/
+│   ├── components/           # Reusable UI elements (filters, toggles, charts)
+│   ├── data/                 # Static JSON or API-injected datasets
+│   ├── styles/               # Tailwind and custom SCSS variables
+│   ├── App.jsx               # Main layout and routing
+│   └── index.js              # App entry point
+├── README.md                 # You're reading it!
+├── package.json              # Project dependencies and scripts
+└── .lovable/                 # Lovable platform-specific configs
+
+`
+
+## 👥 Credits
+
+* Designed & Developed by: **code-silver01**
+* Platform Partner: [Lovable.dev](https://www.lovable.dev)
+* Inspired by industry efforts like **Frontend Battle 2.0 Challenge**
+
+
+
+## 📫 Contact
+
+For questions, feedback, or support, please contact:
+🐙 GitHub: `https://github.com/code-silver01`
+
+
 ```
 
-**Edit a file directly in GitHub**
+Let me know if you’d like a PDF version, contribution guidelines, or auto-generated GitHub Actions for deployment.
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aff89052-bb0a-4fdf-972a-efa579a614ea) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
