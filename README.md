@@ -78,8 +78,3 @@ For questions, feedback, or support, please contact:
 🐙 GitHub: `https://github.com/code-silver01`
 
 
-```
-
-Let me know if you’d like a PDF version, contribution guidelines, or auto-generated GitHub Actions for deployment.
-```
-
